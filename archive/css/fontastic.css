@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'VsevnIcons';
+    src: url('../fonts/vsevn-icons-all.woff2') format('woff2'),
+         url('../fonts/vsevn-icons-all.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+/* Example icon classes – you may need to adjust the Unicode values to match your font glyphs */
+.icon-home::before { content: "\e900"; font-family: 'VsevnIcons'; }
+.icon-groups::before { content: "\e901"; font-family: 'VsevnIcons'; }
+.icon-add::before { content: "\e902"; font-family: 'VsevnIcons'; }
+.icon-edit::before { content: "\e903"; font-family: 'VsevnIcons'; }
+.icon-delete::before { content: "\e904"; font-family: 'VsevnIcons'; }
+.icon-collapse::before { content: "\e905"; font-family: 'VsevnIcons'; }
+.icon-clear::before { content: "\e906"; font-family: 'VsevnIcons'; }
+
+/* Hover animation */
+.icon-home:hover, .icon-groups:hover, .icon-add:hover, .icon-edit:hover, .icon-delete:hover, .icon-collapse:hover {
+    animation: iconHover 0.3s ease-in-out forwards;
+}
+@keyframes iconHover {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}

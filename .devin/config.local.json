@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Exec(python)",
+      "Exec(xcopy)",
+      "Exec(dir)",
+      "Exec(ls)",
+      "Exec(start)"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "vsevn-nav-icons2";
+  src: url('../fontsvsevn-nav-icons2.eot?t=1780668813662'); /* IE9*/
+  src: url('../fontsvsevn-nav-icons2.eot?t=1780668813662#iefix') format('embedded-opentype') /* IE6-IE8 */,
+  url('../fontsvsevn-nav-icons2.woff2?t=1780668813662') format('woff2'),
+  url('../fontsvsevn-nav-icons2.woff?t=1780668813662') format('woff'),
+  url('../fontsvsevn-nav-icons2.ttf?t=1780668813662') format('truetype'),
+  url('../fontsvsevn-nav-icons2.svg?t=1780668813662') format('svg');
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'vsevn-nav-icons2' !important;font-size: undefined;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+.icon-nav-ads::before { content: "\e000"; }
+.icon-nav-companies::before { content: "\e001"; }
+.icon-nav-import::before { content: "\e002"; }
+.icon-nav-letters::before { content: "\e003"; }
+.icon-nav-managers::before { content: "\e004"; }
+.icon-nav-resume::before { content: "\e005"; }
+
+
