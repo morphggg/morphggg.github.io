@@ -552,7 +552,7 @@ html, body {
 .field-input {
     width: 100%;
     height: 2.39583vw;
-    border: 0.05208vw solid var(--c-field-yellow);
+    border: 0.3px solid var(--c-field-yellow);
     border-radius: 0.15625vw;
     background: #fff;
     font-family: inherit;
