@@ -335,22 +335,7 @@ function persistGroups() {
 function restoreGroups(list) {
     try {
         const raw = localStorage.getItem(STORAGE_KEY);
-        if (!raw) {
-            // Добавляем демо-данные для примера
-            const demoData = {
-                link: 'https://ok.ru/group/123456789',
-                altName: 'Тестовая группа',
-                groupId: '123456789',
-                appId: '123456',
-                key: 'demo_public_key_12345',
-                login: 'demo_login',
-                password: 'demo_password'
-            };
-            const card = createCard(demoData);
-            list.appendChild(card);
-            renumber(list);
-            return;
-        }
+        if (!raw) return;
         const arr = JSON.parse(raw);
         if (!Array.isArray(arr) || !arr.length) return;
         arr.forEach((data) => {
